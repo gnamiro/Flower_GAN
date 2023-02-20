@@ -32,8 +32,12 @@ To train models, I used the HParams dashboard (you can view results in "Training
 You can follow the instruction in the "Train and Test Models" section to train models.
 **Note**: If you want to skip using HParam, which you can see the results of hyperparaemter tuning in "Visualize the results in TensorBoard's HParams plugin" section, skip the "Training models with different hyperparameters" section, and run "Training Best Model" section with desired hyperparameters.
 
-<img class="loss-img" src="./Images/index.png">
-<img class="training_phase" src="./Images/training_phase_images.png">
+
+
+|Loss function Image    |Generated flower images after 400 Epochs |
+:-------------------------:|:-------------------------:
+<img class="loss-img" src="./Images/index.png">|<img class="training_phase" src="./Images/training_phase_images.png">
+
 
 ## How to generate new Images
 To this end, you need to load the weigths of the models I trained or train your own model, which requires a good GPU and time. You can use the weigths I saved in "Weights" folder, and run the "Load Models by their HDF5 format" cells to generate new images.
